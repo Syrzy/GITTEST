@@ -4,3 +4,4 @@ Git can be learnt well.
 Write a newline on the internet.
 remove a line on the internet.
 add a line in the VSC and delete the last empty line.
+create a new branch is quick.
