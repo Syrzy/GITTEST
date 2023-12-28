@@ -63,3 +63,19 @@
 3.3定目标：规划期重点要做那几件事；3K（KPI、KQI、KEI）体系量化指标牵引。
 3.4比方案：多方案比选：高中低方案、精准规建。
 3.5估效果：预估是否满足规划目标，如果不满足回到3.4
+
+三、中国联通宽带网专题
+1宽带网络基础知识
+1.1接入网：汇聚层（承载网）与用户终端之间的所有有源和无源设备。接入网通过各种传输媒介为用户提供各种业务，是电信网最大的部分。
+1.1.1接入网的作用：业务接入，汇聚上传。
+1.1.2接入网的特点：业务接口丰富，接入方式灵活，覆盖范围广。
+1.1.3目前主要的接入网技术：PON（Passive Optical Network）无源光网络
+1.1.4接入网在网络中的位置：家庭网络<-宽带接入网<-城域网<-骨干网<-业务网。前三部分都属于宽带网络范畴。
+1.1.5名词解释：OLT（optical line termination）光线路终端；ODN（optical distribution network）光分配网络，在ODN和用户设备之间提供传输。包含馈线段、配线段、接入段（入户段）；ONU（optical network unit）光网络单元，末端接入节点，比如家庭网关；FTTO（fiber to the office）。
+1.1.6名词解释：CDN（content delivery network）内容分发网络；BRAS（broadband remote access server）宽带远程接入服务器，接入网网关，连接接入网和骨干网；BNG（broadband network gateway）宽带网络业务网关，访问IP公网的门户；AAA（authentication authorization accounting）认证、授权、计费，BNG的关键功能；RADIUS（remote authentication dial in user service）远程用户拨号认证；
+1.1.7PON技术简介：点到多点（P2MP）无源光网络，由光线路终端OLT，光网络单元ONU和无源分光器组成。主流分光比1：32和1：64，覆盖范围5~10km。上行TDMA，下行广播。
+1.1.8PON光谱分配：1260nm-1580nm之间。EPON和GPON光猫不能共存。
+1.1.9ODN网络可分为“两点三段”：光分配点（分光箱），用户接入点（入户光猫）；主干光缆（馈线），配线光缆，入户光缆。
+1.1.9.1基站（光纤配线架ODF），地下人手井（接头盒），户外街边（光交箱（分光器SPL）），抱杆/楼道（分纤箱），室内（终端盒）
+
+
